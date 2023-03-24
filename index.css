@@ -1,0 +1,373 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 125px;
+  text-transform: uppercase;
+}
+#main{
+  padding: 0 125px;
+}
+.container{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.left-header {
+  display: flex;
+  align-items: center;
+}
+
+.button-order {
+  font-size: 16px;
+  width: 163px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  padding: 18px 40px;
+  border: 1px solid #232020;
+  border-radius: 24px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.button-order:hover {
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #FFC700;
+}
+
+.about-us {
+  background-color: #F8F8F8;
+  width: 50%;
+  height: 100%;
+  padding: 50px;
+  text-transform: uppercase;
+}
+.about-us2{
+  width: 50%;
+  height: 100%;
+  border:none;
+}
+
+.wrapper {
+  display: flex;
+  max-width: 650px;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.wrapper i.button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 36px;
+  width: 36px;
+  background-color: #343f4f;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 36px;
+  color: #fff;
+  font-size: 15px;
+  transition: all 0.3s linear;
+  z-index: 100;
+  cursor: pointer;
+}
+i.button:active {
+  transform: scale(0.94) translateY(-50%);
+}
+i#prev {
+  left: 25px;
+}
+i#next {
+  right: 25px;
+}
+.image-container {
+  height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+.image-container .carousel {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s ease;
+}
+.carousel img {
+  height: 100%;
+  width: 100%;
+  border-radius: 18px;
+  border: 10px solid #fff;
+  object-fit: cover;
+}
+
+
+.about-us-title {
+  color: #232020;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 57.2px;
+  padding-bottom: 32px;
+  display: flex;
+}
+
+.about-us-p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-bottom: 182px;
+}
+
+.button-price {
+  width: 295px;
+  height: 54px;
+  font-weight: bolder;
+  border-radius: 24px;
+  background-color: #FFC700;
+  border-style: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.our-advantages {
+  width: 100%;
+  height: 282px;
+  padding: 80px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages_text {
+  width: 50%;
+  height: 282px;
+  font-size: 44px;
+  font-weight: inherit;
+  text-transform: uppercase;
+}
+
+.garant {
+  width: 50%;
+  height: 282px;
+  font-size: 24px;
+  line-height: 31.2px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0;
+  gap: 32px;
+}
+
+.star {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+}
+
+.price-all {
+  width: 50%;
+  height: 530px;
+  background-color: #F8F8F8;
+  margin-left: -24px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.price-text {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 57.2px;
+  text-transform: uppercase;
+  padding-bottom: 32px;
+}
+
+.height {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 32px;
+}
+
+.input-1 {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  width: 100%;
+  height: 54px;
+  border: 1px solid #E4E4E4;
+}
+
+.input-2 {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  width: 100%;
+  height: 54px;
+  border: 1px solid #E4E4E4;
+}
+.tarif-2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+ 
+}
+.tarif{
+  font-weight: 400;
+ font-size: 12px;
+ color: #898989;
+ font-size: 12px;
+ padding-bottom: 16px;
+}
+.knopka{
+  padding: 18px 40px;
+  width: 186px;
+  height: 55px;
+  background-color: #FFC700;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+}
+.qwerty label{
+  color: #898989;
+}
+.blank{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 0px;
+}
+.price-all-2{
+  width: 50%;
+  height: 530px;
+  background: url('./images/rectangle.png')center/cover;
+  display: flex;
+  align-items: flex-end;
+  padding: 50px;
+}
+.ploshad{
+  width: 303px;
+  height: 112px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.verh{
+  display: flex;
+  justify-content: space-between;
+}
+.vniz{
+  display: flex;
+  justify-content: space-between;
+}
+.vniz1{
+  color: #898989;
+}
+.verh1{
+  color: #898989;
+}
+.linia{
+  width: 100%;
+  color: #F8F8F8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.linia hr{
+  width: 87%;
+  height: 2px;
+  border: none;
+  background-color: gray;
+}
+ 
+ 
+#footer{
+  width: 100%;
+  padding: 60px 125px;
+  height: 40vh;
+  display: flex;
+}
+
+
+.footer-left{
+  width: 50%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.footer-left1{
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+}
+.footer-left2{
+  font-size: 16px;
+  padding-left: 15px;
+}
+.footer-right{
+  width: 50%;
+  height:150px;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.iconki{
+  display: flex;
+  justify-content: flex-start;
+  width: 35%;
+  height: 100%;
+  gap: 10px;
+
+}
+.kontakty{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.kontakty ul{
+  list-style: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 8px;
+}
+@media all and (max-width: 1200px){
+  .about-us-p{
+    padding-bottom: 50px
+  }
+}
+@media all and (max-width: 768){
+  .container{
+    flex-direction: column;
+
+  }
+  .about-us{
+    width: 100%;
+  }
+}
+
+
+
